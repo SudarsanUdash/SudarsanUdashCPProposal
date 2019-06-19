@@ -1,0 +1,104 @@
+.question {
+  background-color: black;
+  margin: 20px;
+}
+
+/*.sizeForm{
+	width: 500px;
+}*/
+
+.user-question {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #b7bdc3;
+}
+
+.user-answer {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #e5eff8;
+}
+
+.main_page {
+  background-image: url("../images/5.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-repeat: none;
+}
+
+.main_page a {
+  display: inline-block;
+  background: black;
+  max-width: 400px;
+  min-width: 300px;
+  padding: 20px;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main_page a:hover {
+  background: white;
+  color: black;
+}
+
+.book-design {
+  padding: 20px;
+  width: 600px;
+  margin: 20px auto;
+ -webkit-box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+      background-color: white;
+}
+.book-form{
+	background-image: url("../images/dance.jpg");
+	background-repeat: no-repeat;
+}
+h3{
+	color: white;
+	text-align: center;
+}
+.blog-design {
+  padding: 20px;
+  width: 800px;
+  margin: 20px auto;
+ -webkit-box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+   background-color: white;
+   border-radius: 20px;
+}
+.blog-underline{
+	border-bottom:1px solid black;  
+}
+.blog-date{
+	font-style: italic;
+	font-size: 14px;
+}
+.blog-image{
+	background-image: url("../images/m.jpg");
+	background-repeat: no-repeat;
+}
+h2{
+	color: white;
+	text-align: center;
+}
+.profile-design {
+  padding: 20px;
+  width: 600px;
+  margin: 20px auto;
+ -webkit-box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+box-shadow: -6px 10px 26px 12px rgba(0,0,0,0.75);
+   background-color: white;
+   border-radius: 20px;
+}
+.profile-underline{
+  border-bottom:1px solid black;  
+}
+.profile-image{
+  background-image: url("../images/m.jpg");
+  background-repeat: no-repeat;
+}
