@@ -19,17 +19,6 @@ class product extends Common
                      $this->phonenumber = $_POST['phonenumber'];
                       $this->image = $_POST['image'];
 
-                     $img=$_FILES['image']['name'];
-                     $temping=$_FILES['image']['tmp_name'];
-                     $image-> setImage($image);
-                     if ($image -> save())
-                     {
-                      move_uploaded_file($temping,"uploads/" .$img);
-                      ?>
-                      <?php
-                      header('location:addnewproduct.php?msg=product added');
-                       $this->image = $_POST['image'];
-                     }
                     
                 $sql = "insert into products (productname,manufacturelocation,manufacturedate,phonenumber,productquantity,productprice,image) values ('$this->productname','$this->manufacturelocation','$this->manufacturedate','$this->phonenumber','$this->productquantity','$this->productprice','$this->image')"; 
                 return $this->insert($sql);
